@@ -1,7 +1,15 @@
+import RootContext from "./contexts/RootContext";
+import Router from "./Router";
+import SnackBar from "./SnackBar";
+
 function App() {
   return (
     <div>
-      <p>nanituku</p>
+      <RootContext>
+        <SnackBar>
+          <Router />
+        </SnackBar>
+      </RootContext>
     </div>
   );
 }
