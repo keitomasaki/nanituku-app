@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <p>nanituku_ver2</p>
+      <p>nanituku_ver22</p>
     </div>
   );
 }
